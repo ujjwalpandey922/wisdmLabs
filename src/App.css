@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;700;900&family=PT+Sans:wght@400;700&display=swap');
+
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+.firstpage{
+    background: #ECECEC;
+    padding: 2rem ;
+}

@@ -1,0 +1,315 @@
+.app__baner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background: white;
+}
+
+.app__baner-info{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+/*--------------------TITLEINFO---------------- */
+.app__baner-info_header{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    gap: 1rem;
+    width: 780px;
+}
+.app__baner-info_header h1{
+   
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 47px;
+    letter-spacing: 0.02em;
+
+    color: #434343;
+}
+
+.app__baner-info_header-btn{
+    display: flex;
+    gap: 2rem;
+}
+.app__baner-info_header-btn1{
+    height: 40px;
+    border: 1px solid;
+    outline: none;
+    background: white;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    gap: .5rem;
+}
+.app__baner-info_header-btn1 span,.app__baner-info_header-btn2 span,.app__baner-info_header-btn3 span{
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    /* or 150% */
+
+    letter-spacing: 0.02em;
+
+    /* TWS Black */
+
+    color: #434343;
+}
+.app__baner-info_header-btn2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 6px;
+    gap: 10px;
+
+    width: 93px;
+    height: 40px;
+
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), #DC3636;
+    border: none;
+    border-radius: 30px;
+}
+.app__baner-info_header-btn3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 6px;
+    gap: 10px;
+
+    width: 123px;
+    height: 40px;
+
+    /* TWS Gray 60 */
+
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), #434343;
+    border-radius: 30px;
+    border: none;
+}
+
+/*----------------------- MEMBERSHIP------------------ */
+
+.app__baner-info_membership{
+    display: flex;
+    flex-direction: column;
+    
+    margin: 2rem;
+    width: 265px;
+    gap: 2rem;
+    
+}
+
+.app__baner-info_membership-signup{
+    display: flex;
+    flex-direction: column;
+    border: 0.5px solid #434343;
+    border-radius: 8px;
+}
+
+.app__baner-info_membership-signup_money{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 266px;
+    padding: 1rem;
+    gap:2rem; 
+    position: relative;
+}
+.app__baner-info_membership-signup_money-info p{
+
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 37px;
+    text-align: center;
+    
+    /* TWS Black */
+    
+    color: #434343;
+}
+.app__baner-info_membership-signup_money-info span{
+
+        font-family: 'PT Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 25px;
+        text-align: center;
+        
+        /* TWS Black */
+        
+        color: #434343;
+}
+
+.app__baner-info_membership-signup_money-bar {
+    position: absolute;
+    border: 0.5px solid #434343;
+    height: 94px;
+    top: 0px;
+    left: 120px;
+}
+.app__baner-info_membership-signup-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 264.12px;
+    height: 54.34px;
+    background: #DC3636;
+    border-radius: 0 0 8px 8px;
+}
+.app__baner-info_membership-signup-button h3{
+
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 28px;
+    /* or 133% */
+    color: aliceblue;
+    text-align: center;
+    letter-spacing: 0.02em; 
+}
+
+.app__baner-info_membership-rate{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 264px;
+    height: 44px;
+    border: 1px solid #434343;
+border-radius: 8px;
+}
+.app__baner-info_membership-rate p{
+
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    /* identical to box height, or 150% */
+   
+    letter-spacing: 0.02em;
+    
+    /* TWS Black */
+    
+    color: #434343;
+}
+/*=----------------------------- Addresss------------------------------------------------ */
+.app__baner-address{
+    padding: 2rem 4rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    font-family: 'PT Sans';
+   
+}
+.bar{
+    
+    height: 50px;   
+    width: 0px; 
+    /* Divider */
+    border: 0.8px solid #828282; 
+    background: #828282; 
+
+}
+.pp__baner-address-date-icons{
+    width: 24px;
+    height: 25.09px;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 21px;
+    text-align: center;
+    /* TWS Red */
+    color: #DC3636;
+    margin-left: 1rem;
+}
+
+.app__baner-address-date-full{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    
+}
+.app__baner-address-date-time{
+    margin-left: 3.25rem;
+}
+
+.app__baner-address-info{
+    display: flex;
+    
+}
+.app__baner-address-info span{
+
+    /* width: 170px; */
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    /* or 156% */
+    margin-left: 1rem;
+    letter-spacing: 0.02em;
+
+    color: #000000;
+    
+}
+
+.app__baner-address-deadline{
+    display: flex;
+    gap: 1rem;
+}
+.app__baner-address-deadline-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-right: 1rem;
+}
+.app__baner-address-deadline span{
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    /* or 156% */
+
+    letter-spacing: 0.02em;
+    
+    
+}
+ .app__baner-address-deadline p{
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+} 
+
+@media (max-width:800px) {
+    .app__baner-info{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .app__baner-info_header{
+        width: 100%;
+    }
+    .app__baner-address{
+        display: none;
+    }
+    .app__baner-info_header-btn1 {
+        display: none;
+    }
+}

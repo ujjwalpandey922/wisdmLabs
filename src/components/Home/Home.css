@@ -1,0 +1,251 @@
+.app__home{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background: white;
+    margin-top: 2rem;
+}
+
+.app__home-content{
+    display: flex;
+
+}
+.app__home-content_info{
+
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    /* or 156% */
+    
+    letter-spacing: 0.02em;
+    
+    /* TWS Black */
+    
+    color: #434343;
+    padding: 2rem;
+}
+/*-============================== imagee=================== */
+.app__home-image{
+    width: 100%;
+    height: 264px;
+    
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), url("../../assets/img.jfif");
+    background-position: center;
+    background-size: cover;
+    background-repeat: repeat;
+    background-attachment: fixed;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.app__home-image-content{
+    padding: 0 1rem;
+    width: 953px;
+    height: 173px;
+    /* White */
+    background: #FFFFFF;
+    /* M3/Elevation Light/3 */
+    box-shadow: 0px 4px 8px 3px rgba(0, 0, 0, 0.15), 0px 1px 3px rgba(0, 0, 0, 0.3);
+    border-radius: 16px;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.app__home-image-content-quote{
+    
+        font-family: 'PT Sans';
+        font-style: italic;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 34px;
+        /* or 142% */
+        
+        text-align: center;
+        letter-spacing: 0.02em;
+        width: 80%;
+        
+        /* TWS Black */
+        
+        color: #434343;
+    
+}
+.app__home-image-content-quote span{
+    font-weight: 700;
+}
+
+.app__home-image-content h3{
+    width: 78px;
+    
+    font-family: 'Gotham Rounded';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 100px;
+
+    color: #00ACB4
+}
+.app__home-image-content h3:first-child{
+    padding-left: 2rem ;  
+}
+
+/* =======================author=--------------------- */
+
+
+.app__home-content_author img{
+    
+    
+    width: 146px;
+    height: 146px;
+    border-radius: 100px;
+   
+}
+
+.app__home-content_author{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    gap: 3rem;
+
+    width: 150%;
+    padding: 2rem;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.85)), #F39B4E;
+}
+
+.app__home-content_author span{
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    /* or 139% */
+
+    letter-spacing: 0.02em;
+
+    /* TWS Teal */
+
+    color: #00ACB4;
+}
+.app__home-content_author p{
+    font-family: 'PT Sans'; 
+    line-height: 25px;
+    /* or 139% */
+    letter-spacing: 0.02em;
+    /* TWS Teal */
+}
+.app__home-content_author button{
+
+    width: 202px;
+    height: 44px;
+  
+    background: #FFFFFF;
+    border: 1px solid #DC3636;
+    border-radius: 28px;
+    
+    letter-spacing: 0.02em;
+    font-family: 'PT Sans';
+    font-style: normal;
+    
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    /* TWS Red */
+
+    color: #DC3636;
+
+}
+.app__home-content_author-btn{
+   
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    
+}
+
+/*====================== information sharing======================= */
+
+.app__home-content_info-share{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: .51rem;
+    padding: 4rem 0 2rem 0;
+}
+
+.app__home-content_info-share span{
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    /* or 150% */
+
+    letter-spacing: 0.02em;
+}
+.app__home-content_info-share-icons{
+    width: 30px;
+    height: 20px
+
+}
+ /*-------------------------- classes--------------------------------- */
+.app__home-content_info-class{
+    display: flex;
+    flex-direction: column;
+}
+
+.app__home-content_info-class h3{
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 36px;
+    /* or 150% */
+    
+    letter-spacing: 0.02em;
+    
+    /* TWS Black */
+    padding-top: 2rem;
+    color: #434343;
+}
+.app__home-content_info-class p{
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    /* or 150% */
+    
+    letter-spacing: 0.02em;
+    
+    /* TWS Black */
+    
+    color: #434343;
+
+   
+}
+
+.app__home-content_info-class-time{
+    display: flex;
+    gap: 1rem;
+    padding: 1.5rem 0;
+}
+.app__home-content_info-class-Dates{
+    display: flex;
+    gap: 1.5rem;
+    padding: 1rem 0;
+}
+
+@media (max-width:800px) {
+    .app__home-content_author{
+        display: none;
+    }
+    .app__home-image-content-quote p{
+        font-size: x-small
+    }
+}

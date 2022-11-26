@@ -1,0 +1,128 @@
+.app__fullpage{
+    width: 100%;
+    padding: 4rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.app__fullpage-para1{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.app__fullpage-para1-head h3{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 36px;
+    /* or 150% */
+
+    letter-spacing: 0.02em;
+
+    /* TWS Black */
+
+    color: #434343;
+}
+
+.app__fullpage-para1 p{
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    /* or 156% */
+
+    letter-spacing: 0.02em;
+
+    /* TWS Black */
+
+    color: #434343;
+}
+.app__fullpage-para1 span{
+    color: #00ACB4;
+}
+.app__fullpage-para1-links span{
+   
+    gap: 2rem;
+    padding-right: 5rem ;
+
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    /* or 156% */
+
+    letter-spacing: 0.02em;
+
+    /* TWS Red */
+
+    color: #DC3636;
+}
+
+hr{
+    margin: 3rem 0;
+}
+
+/*=============================== second para ==========================*/
+
+
+.app__fullpage-para2 p{
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    /* or 156% */
+
+    letter-spacing: 0.02em;
+}
+.app__fullpage-para2 h3{
+    margin-bottom: 2rem ;
+}
+
+.app__fullpage-para2-contents{
+    display: flex;
+    margin: 3rem 0;
+    gap: 2rem;
+}
+
+.app__fullpage-para2-contents h2{
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    /* or 139% */
+
+    letter-spacing: 0.02em;
+
+    /* TWS Red */
+
+    color: #DC3636;
+}
+
+.app__fullpage-para2-contents p{
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    /* or 139% */
+
+    letter-spacing: 0.02em;
+
+    /* TWS Red */
+
+    color: #434343;
+}
+@media (max-width:800px) {
+    .app__fullpage-para1-links{
+        display: none;
+    }
+    .app__fullpage-para2-contents:nth-last-child(n){
+        display: none;
+    }
+}
